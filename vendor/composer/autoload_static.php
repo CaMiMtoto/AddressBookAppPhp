@@ -19,6 +19,7 @@ class ComposerStaticInit1bbac79955c2f51121d26813befa1ff9
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Contracts\\Translation\\' => 30,
             'Symfony\\Component\\Translation\\' => 30,
+            'SimpleCli\\' => 10,
         ),
         'C' => 
         array (
@@ -43,9 +44,14 @@ class ComposerStaticInit1bbac79955c2f51121d26813befa1ff9
         array (
             0 => __DIR__ . '/..' . '/symfony/translation',
         ),
+        'SimpleCli\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/simple-cli/simple-cli/src/SimpleCli',
+        ),
         'Carbon\\' => 
         array (
             0 => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon',
+            1 => __DIR__ . '/..' . '/carbon-cli/carbon-cli/src/Carbon',
         ),
     );
 

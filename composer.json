@@ -1,15 +1,18 @@
 {
-  "name": "$vendor_name$/$package_name$",
-  "description": "$description$",
-  "minimum-stability": "$stability$",
-  "license": "$license$",
+  "name": "vendor_name/addressbook",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
   "authors": [
     {
-      "name": "$author$",
-      "email": "$email$"
+      "name": "CaMi",
+      "email": "email@example.com"
     }
   ],
   "require": {
-    $END$
+    "nesbot/carbon": "^2.43",
+    "ext-json": "*",
+    "ext-mysqli": "*",
+    "carbon-cli/carbon-cli": "^1.2"
   }
 }

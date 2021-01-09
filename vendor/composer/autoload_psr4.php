@@ -10,5 +10,6 @@ return array(
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
     'Symfony\\Contracts\\Translation\\' => array($vendorDir . '/symfony/translation-contracts'),
     'Symfony\\Component\\Translation\\' => array($vendorDir . '/symfony/translation'),
-    'Carbon\\' => array($vendorDir . '/nesbot/carbon/src/Carbon'),
+    'SimpleCli\\' => array($vendorDir . '/simple-cli/simple-cli/src/SimpleCli'),
+    'Carbon\\' => array($vendorDir . '/nesbot/carbon/src/Carbon', $vendorDir . '/carbon-cli/carbon-cli/src/Carbon'),
 );
